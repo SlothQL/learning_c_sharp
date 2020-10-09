@@ -14,4 +14,6 @@ I recently started learning C# by following this course and creating a gradebook
 - Reference Types, Value Types
 - Creating a Solution file
 - The ref keyword
+- Loops and loop control statements 
+- The Switch statement
 - 
