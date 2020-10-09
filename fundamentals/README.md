@@ -17,4 +17,5 @@ I recently started learning C# by following this course and creating a gradebook
 - Loops and loop control statements 
 - The Switch statement
 - Pattern Matching
-- 
+- Throwing and catching Exceptions
+
