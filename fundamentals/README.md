@@ -11,4 +11,6 @@ I recently started learning C# by following this course and creating a gradebook
 - The C# syntax
 - Classes and objects
 - Unit Testing using xUnit.net
+- Reference Types, Value Types
+- Creating a Solution file
 - 
