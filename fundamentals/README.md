@@ -16,4 +16,5 @@ I recently started learning C# by following this course and creating a gradebook
 - The ref keyword
 - Loops and loop control statements 
 - The Switch statement
+- Pattern Matching
 - 
