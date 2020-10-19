@@ -9,6 +9,11 @@ namespace GradeBook
         {   
             var book = new Book("Scott's Grade Book");
 
+            book.GradeAdded += OneGradeAdded;
+            book.GradeAdded += OneGradeAdded;
+            book.GradeAdded -= OneGradeAdded;
+            book.GradeAdded += OneGradeAdded;
+
             while (true) {
 
                 Console.WriteLine("Enter a grade or 'q' to quit");
@@ -40,6 +45,10 @@ namespace GradeBook
             Console.WriteLine($"The highest grade is: {stats.High}");
             Console.WriteLine($"The lowest grade is: {stats.Low}");
             Console.WriteLine($"The letter grade is: {stats.Letter}");
+        }
+
+        static void OneGradeAdded(object sender, EventArgs e) {
+            Console.WriteLine("Grade Added");
         }
     }
 }
