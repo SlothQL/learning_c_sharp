@@ -86,5 +86,7 @@ namespace GradeBook {
             // private set; would mean after construction the book, the name cannot be changed
             set;
         }
+
+        readonly string category = "Science";
     }
 }
