@@ -21,4 +21,5 @@ I recently started learning C# by following this course and creating a gradebook
 - Method Overloading
 - Auto-Implemented Properties
 - Delegates and Events
+- OOP
 

@@ -5,7 +5,14 @@ namespace GradeBook {
 
     public delegate void GradeAddedDelegate(object sender, EventArgs args);
 
-    public class Book {
+    public class NamedObject {
+        public string Name {
+            get;
+            set;
+        }
+    }
+
+    public class Book : NamedObject {
 
         public Book(string name) {
             grades = new List<double>();
@@ -89,11 +96,7 @@ namespace GradeBook {
         
         private List<double> grades;
 
-        public string Name {
-            get; 
-            // private set; would mean after construction the book, the name cannot be changed
-            set;
-        }
+        
 
         public const string CATEGORY = "Science";
     }
