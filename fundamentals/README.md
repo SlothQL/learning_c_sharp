@@ -20,4 +20,5 @@ I recently started learning C# by following this course and creating a gradebook
 - Throwing and catching Exceptions
 - Method Overloading
 - Auto-Implemented Properties
+- Events
 
