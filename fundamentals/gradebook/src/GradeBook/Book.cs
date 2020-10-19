@@ -9,7 +9,7 @@ namespace GradeBook {
             Name = name;
         }
 
-        public void AddLetterGrade(char letter) {
+        public void AddGrade(char letter) {
            switch(letter) {
                case 'A':
                     AddGrade(90);
@@ -80,6 +80,19 @@ namespace GradeBook {
         }
         
         private List<double> grades;
-        public string Name;
+
+        public string Name {
+            get {
+                return name;
+            }
+            set {
+                if (!String.IsNullOrEmpty(value)) {
+                    name = value;
+                }
+                
+            }
+        }
+
+        private string name;
     }
 }
