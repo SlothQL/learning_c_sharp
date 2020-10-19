@@ -19,4 +19,5 @@ I recently started learning C# by following this course and creating a gradebook
 - Pattern Matching
 - Throwing and catching Exceptions
 - Method Overloading
+- Auto-Implemented Properties
 
