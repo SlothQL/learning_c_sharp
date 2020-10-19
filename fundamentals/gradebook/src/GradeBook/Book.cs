@@ -87,6 +87,6 @@ namespace GradeBook {
             set;
         }
 
-        readonly string category = "Science";
+        public const string CATEGORY = "Science";
     }
 }
